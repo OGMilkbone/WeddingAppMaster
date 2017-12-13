@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1054E7FF1F9955560080223E /* AtireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E7FE1F9955560080223E /* AtireViewController.swift */; };
+		1054E8011F9955720080223E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E8001F9955720080223E /* LocationViewController.swift */; };
+		1054E8051F99572D0080223E /* PartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E8041F99572D0080223E /* PartyViewController.swift */; };
+		10725BAA1FE1D22B005938E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10725BA91FE1D22B005938E0 /* GoogleService-Info.plist */; };
+		10725BAB1FE1D22B005938E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10725BA91FE1D22B005938E0 /* GoogleService-Info.plist */; };
+		10725BAC1FE1D22B005938E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10725BA91FE1D22B005938E0 /* GoogleService-Info.plist */; };
+		10859E491F9018D400B6BD9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859E481F9018D400B6BD9E /* AppDelegate.swift */; };
+		10859E4E1F9018D400B6BD9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10859E4C1F9018D400B6BD9E /* Main.storyboard */; };
+		10859E501F9018D400B6BD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10859E4F1F9018D400B6BD9E /* Assets.xcassets */; };
+		10859E531F9018D400B6BD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10859E511F9018D400B6BD9E /* LaunchScreen.storyboard */; };
+		10859E5E1F9018D400B6BD9E /* WeddingAppMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859E5D1F9018D400B6BD9E /* WeddingAppMasterTests.swift */; };
+		10859E691F9018D400B6BD9E /* WeddingAppMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859E681F9018D400B6BD9E /* WeddingAppMasterUITests.swift */; };
+		10859E771F90190D00B6BD9E /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859E761F90190D00B6BD9E /* CountdownViewController.swift */; };
+		10859E791F901E2100B6BD9E /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10859E781F901E2100B6BD9E /* MenuCell.swift */; };
+		10F3DFB11F903D8700C56C91 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3DFB01F903D8700C56C91 /* Menu.swift */; };
+		10F3DFC81F904B2D00C56C91 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3DFC71F904B2C00C56C91 /* MenuViewController.swift */; };
+		10F3DFCA1F905F4B00C56C91 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3DFC91F905F4B00C56C91 /* CollectionViewController.swift */; };
+		10F3DFCC1F90649000C56C91 /* BrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3DFCB1F90649000C56C91 /* BrowserCell.swift */; };
+		10F3DFCE1F90691300C56C91 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3DFCD1F90691300C56C91 /* ImageService.swift */; };
+		C822581CF53FFFDD7BCA461D /* Pods_WeddingAppMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8CEEE48F61BB8AF776177 /* Pods_WeddingAppMasterTests.framework */; };
+		E3E7CEBC962FF3CFA7C7E72B /* Pods_WeddingAppMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155984C058B48C052BC3AAE2 /* Pods_WeddingAppMaster.framework */; };
+		EA10158EC10808539AC1CDE1 /* Pods_WeddingAppMasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8ADECDB9D3D64D006FCA50E /* Pods_WeddingAppMasterUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10859E5A1F9018D400B6BD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10859E3D1F9018D400B6BD9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10859E441F9018D400B6BD9E;
+			remoteInfo = WeddingAppMaster;
+		};
+		10859E651F9018D400B6BD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10859E3D1F9018D400B6BD9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10859E441F9018D400B6BD9E;
+			remoteInfo = WeddingAppMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1014C4551FE1E12A00797ACB /* WeddingAppMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeddingAppMaster.entitlements; sourceTree = "<group>"; };
+		1054E7FE1F9955560080223E /* AtireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtireViewController.swift; sourceTree = "<group>"; };
+		1054E8001F9955720080223E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		1054E8041F99572D0080223E /* PartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewController.swift; sourceTree = "<group>"; };
+		10725BA91FE1D22B005938E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10859E451F9018D400B6BD9E /* WeddingAppMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingAppMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10859E481F9018D400B6BD9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10859E4D1F9018D400B6BD9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10859E4F1F9018D400B6BD9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10859E521F9018D400B6BD9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10859E541F9018D400B6BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10859E591F9018D400B6BD9E /* WeddingAppMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingAppMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10859E5D1F9018D400B6BD9E /* WeddingAppMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingAppMasterTests.swift; sourceTree = "<group>"; };
+		10859E5F1F9018D400B6BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10859E641F9018D400B6BD9E /* WeddingAppMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingAppMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10859E681F9018D400B6BD9E /* WeddingAppMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingAppMasterUITests.swift; sourceTree = "<group>"; };
+		10859E6A1F9018D400B6BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10859E761F90190D00B6BD9E /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		10859E781F901E2100B6BD9E /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		10F3DFB01F903D8700C56C91 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		10F3DFC71F904B2C00C56C91 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		10F3DFC91F905F4B00C56C91 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		10F3DFCB1F90649000C56C91 /* BrowserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserCell.swift; sourceTree = "<group>"; };
+		10F3DFCD1F90691300C56C91 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		13A225A16F0AACAC5B5809A9 /* Pods-WeddingAppMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingAppMasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingAppMasterTests/Pods-WeddingAppMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		155984C058B48C052BC3AAE2 /* Pods_WeddingAppMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingAppMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECF0F7D1C642D1924A7A94A /* Pods-WeddingAppMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingAppMasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingAppMasterTests/Pods-WeddingAppMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		31F8CEEE48F61BB8AF776177 /* Pods_WeddingAppMasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingAppMasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54941CD7A15E5C4FD45E7274 /* Pods-WeddingAppMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingAppMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingAppMaster/Pods-WeddingAppMaster.release.xcconfig"; sourceTree = "<group>"; };
+		69B8AA591742C2696ECCC82F /* Pods-WeddingAppMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingAppMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingAppMaster/Pods-WeddingAppMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		74E0BF7D5DCB858353C9C95E /* Pods-WeddingAppMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingAppMasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingAppMasterUITests/Pods-WeddingAppMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8ADECDB9D3D64D006FCA50E /* Pods_WeddingAppMasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingAppMasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38F5D0BEEF92A03789256D2 /* Pods-WeddingAppMasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingAppMasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingAppMasterUITests/Pods-WeddingAppMasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10859E421F9018D400B6BD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E7CEBC962FF3CFA7C7E72B /* Pods_WeddingAppMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10859E561F9018D400B6BD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C822581CF53FFFDD7BCA461D /* Pods_WeddingAppMasterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10859E611F9018D400B6BD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10158EC10808539AC1CDE1 /* Pods_WeddingAppMasterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2ADB5C972F273EC07B1504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155984C058B48C052BC3AAE2 /* Pods_WeddingAppMaster.framework */,
+				31F8CEEE48F61BB8AF776177 /* Pods_WeddingAppMasterTests.framework */,
+				A8ADECDB9D3D64D006FCA50E /* Pods_WeddingAppMasterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E7F2E30A05626C43E717C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69B8AA591742C2696ECCC82F /* Pods-WeddingAppMaster.debug.xcconfig */,
+				54941CD7A15E5C4FD45E7274 /* Pods-WeddingAppMaster.release.xcconfig */,
+				13A225A16F0AACAC5B5809A9 /* Pods-WeddingAppMasterTests.debug.xcconfig */,
+				2ECF0F7D1C642D1924A7A94A /* Pods-WeddingAppMasterTests.release.xcconfig */,
+				E38F5D0BEEF92A03789256D2 /* Pods-WeddingAppMasterUITests.debug.xcconfig */,
+				74E0BF7D5DCB858353C9C95E /* Pods-WeddingAppMasterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		10859E3C1F9018D400B6BD9E = {
+			isa = PBXGroup;
+			children = (
+				10859E471F9018D400B6BD9E /* WeddingAppMaster */,
+				10859E5C1F9018D400B6BD9E /* WeddingAppMasterTests */,
+				10859E671F9018D400B6BD9E /* WeddingAppMasterUITests */,
+				10859E461F9018D400B6BD9E /* Products */,
+				0E7F2E30A05626C43E717C95 /* Pods */,
+				0A2ADB5C972F273EC07B1504 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10859E461F9018D400B6BD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10859E451F9018D400B6BD9E /* WeddingAppMaster.app */,
+				10859E591F9018D400B6BD9E /* WeddingAppMasterTests.xctest */,
+				10859E641F9018D400B6BD9E /* WeddingAppMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10859E471F9018D400B6BD9E /* WeddingAppMaster */ = {
+			isa = PBXGroup;
+			children = (
+				1014C4551FE1E12A00797ACB /* WeddingAppMaster.entitlements */,
+				10725BA91FE1D22B005938E0 /* GoogleService-Info.plist */,
+				10F3DFC71F904B2C00C56C91 /* MenuViewController.swift */,
+				10859E481F9018D400B6BD9E /* AppDelegate.swift */,
+				10859E4C1F9018D400B6BD9E /* Main.storyboard */,
+				10859E4F1F9018D400B6BD9E /* Assets.xcassets */,
+				10859E511F9018D400B6BD9E /* LaunchScreen.storyboard */,
+				10859E541F9018D400B6BD9E /* Info.plist */,
+				10859E761F90190D00B6BD9E /* CountdownViewController.swift */,
+				10859E781F901E2100B6BD9E /* MenuCell.swift */,
+				10F3DFB01F903D8700C56C91 /* Menu.swift */,
+				10F3DFC91F905F4B00C56C91 /* CollectionViewController.swift */,
+				10F3DFCB1F90649000C56C91 /* BrowserCell.swift */,
+				10F3DFCD1F90691300C56C91 /* ImageService.swift */,
+				1054E7FE1F9955560080223E /* AtireViewController.swift */,
+				1054E8001F9955720080223E /* LocationViewController.swift */,
+				1054E8041F99572D0080223E /* PartyViewController.swift */,
+			);
+			path = WeddingAppMaster;
+			sourceTree = "<group>";
+		};
+		10859E5C1F9018D400B6BD9E /* WeddingAppMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				10859E5D1F9018D400B6BD9E /* WeddingAppMasterTests.swift */,
+				10859E5F1F9018D400B6BD9E /* Info.plist */,
+			);
+			path = WeddingAppMasterTests;
+			sourceTree = "<group>";
+		};
+		10859E671F9018D400B6BD9E /* WeddingAppMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10859E681F9018D400B6BD9E /* WeddingAppMasterUITests.swift */,
+				10859E6A1F9018D400B6BD9E /* Info.plist */,
+			);
+			path = WeddingAppMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10859E441F9018D400B6BD9E /* WeddingAppMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10859E6D1F9018D400B6BD9E /* Build configuration list for PBXNativeTarget "WeddingAppMaster" */;
+			buildPhases = (
+				4042A2799C06760FDC2FD8A7 /* [CP] Check Pods Manifest.lock */,
+				10859E411F9018D400B6BD9E /* Sources */,
+				10859E421F9018D400B6BD9E /* Frameworks */,
+				10859E431F9018D400B6BD9E /* Resources */,
+				986710147B388DAAB6BFA252 /* [CP] Embed Pods Frameworks */,
+				BA6E19A40AE4BFC7307CA408 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeddingAppMaster;
+			productName = WeddingAppMaster;
+			productReference = 10859E451F9018D400B6BD9E /* WeddingAppMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10859E581F9018D400B6BD9E /* WeddingAppMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10859E701F9018D400B6BD9E /* Build configuration list for PBXNativeTarget "WeddingAppMasterTests" */;
+			buildPhases = (
+				7169F253524F5EBD90A93ACD /* [CP] Check Pods Manifest.lock */,
+				10859E551F9018D400B6BD9E /* Sources */,
+				10859E561F9018D400B6BD9E /* Frameworks */,
+				10859E571F9018D400B6BD9E /* Resources */,
+				CD62ADA0B8EF1C2CD3F2F0D3 /* [CP] Embed Pods Frameworks */,
+				59A978A94122E86B93521D65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10859E5B1F9018D400B6BD9E /* PBXTargetDependency */,
+			);
+			name = WeddingAppMasterTests;
+			productName = WeddingAppMasterTests;
+			productReference = 10859E591F9018D400B6BD9E /* WeddingAppMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10859E631F9018D400B6BD9E /* WeddingAppMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10859E731F9018D400B6BD9E /* Build configuration list for PBXNativeTarget "WeddingAppMasterUITests" */;
+			buildPhases = (
+				1543BF155844DD07AE9B3D31 /* [CP] Check Pods Manifest.lock */,
+				10859E601F9018D400B6BD9E /* Sources */,
+				10859E611F9018D400B6BD9E /* Frameworks */,
+				10859E621F9018D400B6BD9E /* Resources */,
+				DF939DC9F9FBF397206526F8 /* [CP] Embed Pods Frameworks */,
+				9455D604DC0BC347C8826CBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10859E661F9018D400B6BD9E /* PBXTargetDependency */,
+			);
+			name = WeddingAppMasterUITests;
+			productName = WeddingAppMasterUITests;
+			productReference = 10859E641F9018D400B6BD9E /* WeddingAppMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10859E3D1F9018D400B6BD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = jwilson;
+				TargetAttributes = {
+					10859E441F9018D400B6BD9E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					10859E581F9018D400B6BD9E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10859E441F9018D400B6BD9E;
+					};
+					10859E631F9018D400B6BD9E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10859E441F9018D400B6BD9E;
+					};
+				};
+			};
+			buildConfigurationList = 10859E401F9018D400B6BD9E /* Build configuration list for PBXProject "WeddingAppMaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10859E3C1F9018D400B6BD9E;
+			productRefGroup = 10859E461F9018D400B6BD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10859E441F9018D400B6BD9E /* WeddingAppMaster */,
+				10859E581F9018D400B6BD9E /* WeddingAppMasterTests */,
+				10859E631F9018D400B6BD9E /* WeddingAppMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10859E431F9018D400B6BD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10859E531F9018D400B6BD9E /* LaunchScreen.storyboard in Resources */,
+				10859E501F9018D400B6BD9E /* Assets.xcassets in Resources */,
+				10725BAA1FE1D22B005938E0 /* GoogleService-Info.plist in Resources */,
+				10859E4E1F9018D400B6BD9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10859E571F9018D400B6BD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10725BAB1FE1D22B005938E0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10859E621F9018D400B6BD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10725BAC1FE1D22B005938E0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1543BF155844DD07AE9B3D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeddingAppMasterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4042A2799C06760FDC2FD8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeddingAppMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A978A94122E86B93521D65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMasterTests/Pods-WeddingAppMasterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7169F253524F5EBD90A93ACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeddingAppMasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9455D604DC0BC347C8826CBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMasterUITests/Pods-WeddingAppMasterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986710147B388DAAB6BFA252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMaster/Pods-WeddingAppMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMaster/Pods-WeddingAppMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6E19A40AE4BFC7307CA408 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMaster/Pods-WeddingAppMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD62ADA0B8EF1C2CD3F2F0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMasterTests/Pods-WeddingAppMasterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF939DC9F9FBF397206526F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingAppMasterUITests/Pods-WeddingAppMasterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10859E411F9018D400B6BD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1054E8051F99572D0080223E /* PartyViewController.swift in Sources */,
+				10F3DFCA1F905F4B00C56C91 /* CollectionViewController.swift in Sources */,
+				10F3DFCE1F90691300C56C91 /* ImageService.swift in Sources */,
+				10859E771F90190D00B6BD9E /* CountdownViewController.swift in Sources */,
+				10F3DFC81F904B2D00C56C91 /* MenuViewController.swift in Sources */,
+				10F3DFCC1F90649000C56C91 /* BrowserCell.swift in Sources */,
+				1054E8011F9955720080223E /* LocationViewController.swift in Sources */,
+				1054E7FF1F9955560080223E /* AtireViewController.swift in Sources */,
+				10859E791F901E2100B6BD9E /* MenuCell.swift in Sources */,
+				10859E491F9018D400B6BD9E /* AppDelegate.swift in Sources */,
+				10F3DFB11F903D8700C56C91 /* Menu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10859E551F9018D400B6BD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10859E5E1F9018D400B6BD9E /* WeddingAppMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10859E601F9018D400B6BD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10859E691F9018D400B6BD9E /* WeddingAppMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10859E5B1F9018D400B6BD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10859E441F9018D400B6BD9E /* WeddingAppMaster */;
+			targetProxy = 10859E5A1F9018D400B6BD9E /* PBXContainerItemProxy */;
+		};
+		10859E661F9018D400B6BD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10859E441F9018D400B6BD9E /* WeddingAppMaster */;
+			targetProxy = 10859E651F9018D400B6BD9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10859E4C1F9018D400B6BD9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10859E4D1F9018D400B6BD9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10859E511F9018D400B6BD9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10859E521F9018D400B6BD9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10859E6B1F9018D400B6BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10859E6C1F9018D400B6BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10859E6E1F9018D400B6BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B8AA591742C2696ECCC82F /* Pods-WeddingAppMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeddingAppMaster/WeddingAppMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9GD544DL3;
+				INFOPLIST_FILE = WeddingAppMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weddingapp.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10859E6F1F9018D400B6BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54941CD7A15E5C4FD45E7274 /* Pods-WeddingAppMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeddingAppMaster/WeddingAppMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9GD544DL3;
+				INFOPLIST_FILE = WeddingAppMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weddingapp.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10859E711F9018D400B6BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A225A16F0AACAC5B5809A9 /* Pods-WeddingAppMasterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeddingAppMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.WeddingAppMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeddingAppMaster.app/WeddingAppMaster";
+			};
+			name = Debug;
+		};
+		10859E721F9018D400B6BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECF0F7D1C642D1924A7A94A /* Pods-WeddingAppMasterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeddingAppMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.WeddingAppMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeddingAppMaster.app/WeddingAppMaster";
+			};
+			name = Release;
+		};
+		10859E741F9018D400B6BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38F5D0BEEF92A03789256D2 /* Pods-WeddingAppMasterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeddingAppMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.WeddingAppMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeddingAppMaster;
+			};
+			name = Debug;
+		};
+		10859E751F9018D400B6BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E0BF7D5DCB858353C9C95E /* Pods-WeddingAppMasterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeddingAppMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.WeddingAppMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeddingAppMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10859E401F9018D400B6BD9E /* Build configuration list for PBXProject "WeddingAppMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10859E6B1F9018D400B6BD9E /* Debug */,
+				10859E6C1F9018D400B6BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10859E6D1F9018D400B6BD9E /* Build configuration list for PBXNativeTarget "WeddingAppMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10859E6E1F9018D400B6BD9E /* Debug */,
+				10859E6F1F9018D400B6BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10859E701F9018D400B6BD9E /* Build configuration list for PBXNativeTarget "WeddingAppMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10859E711F9018D400B6BD9E /* Debug */,
+				10859E721F9018D400B6BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10859E731F9018D400B6BD9E /* Build configuration list for PBXNativeTarget "WeddingAppMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10859E741F9018D400B6BD9E /* Debug */,
+				10859E751F9018D400B6BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10859E3D1F9018D400B6BD9E /* Project object */;
+}
